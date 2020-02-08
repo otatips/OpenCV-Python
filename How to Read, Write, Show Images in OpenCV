@@ -6,3 +6,6 @@ print(img)
 cv2.imshow('image', img)
 cv2.waitKey(5000)
 cv2.destroyAllWindows()
+
+
+cv2.imwrite('hill_copy.jpg', img)
